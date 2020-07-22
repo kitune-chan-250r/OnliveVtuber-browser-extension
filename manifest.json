@@ -1,0 +1,19 @@
+{
+    "name": "OnliveVtuber Extension",
+    "version": "0.1",
+    "description": "OnliveVtuber extention",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon/icon_48v2.png",
+        "128": "icon/icon_128v2.png"
+      }
+    },
+    "permissions": [
+		"http://*/*",
+		"https://*/*"
+	],
+  "content_security_policy": "script-src 'self' https://vtuber-livestatus-api.herokuapp.com/api/onlive/ https://ssl.google-analytics.com; object-src 'self'",
+
+  "manifest_version": 2
+}
