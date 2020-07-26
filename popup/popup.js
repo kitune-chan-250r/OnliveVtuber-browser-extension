@@ -41,6 +41,7 @@ function fetch_api(){
 	})
 }
 
+//google analytics
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-149456660-1']);
 _gaq.push(['_trackPageview']);
@@ -50,7 +51,6 @@ _gaq.push(['_trackPageview']);
   ga.src = 'https://ssl.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-//google analytics
 
 
 //window読み込み時に実行
