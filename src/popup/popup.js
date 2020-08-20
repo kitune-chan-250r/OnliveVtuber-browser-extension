@@ -13,9 +13,8 @@ function content_generater(json_obj){
 	"</div>" +
 	"<div class='col-xs-12 col-lg-6'>" +
 	"<div class='content' id='detail'>" +
-	"<h5 class='title-text'>" +
-	"<a href='https://www.youtube.com/watch?v=" + liveid + "' target='_blank' class='title-text'>" + title + " </a>" +
-	"</h5>" +
+	"<h5 class='title-text'>" + title + "</h5>" +
+	"<a href='https://www.youtube.com/watch?v=" + liveid + "' target='_blank'></a>" +
 	"<p class='name'>" + production + " : " + liver + " </p>" +
 	"</div>" +
 	"</div>" +
